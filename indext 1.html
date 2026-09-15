@@ -1,0 +1,302 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="YUYA Creative Portfolio" />
+
+    <title>NA| Creative Portfolio</title>
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <!-- ================= HEADER ================= -->
+
+    <header class="site-header">
+      <a href="./index.html" class="logo"> NA </a>
+
+      <!-- Mobile Menu -->
+      <input type="checkbox" id="nav-toggle" class="nav-toggle" />
+
+      <label for="nav-toggle" class="menu-button" aria-label="Open navigation">
+        <span></span>
+        <span></span>
+        <span></span>
+      </label>
+
+      <!-- Navigation -->
+
+      <nav class="main-nav">
+        <a href="#work">Works</a>
+
+        <a href="#about">About</a>
+
+        <a href="./contact.html">Contact</a>
+
+        <a href="#work" class="grid-icon" aria-label="View work">
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+        </a>
+      </nav>
+    </header>
+
+    <main>
+      <!-- ================= HERO ================= -->
+
+      <section class="hero section" id="home">
+        <div class="hero-title">
+          <h1>
+            NARGIS<br />
+            ALIZAI
+          </h1>
+        </div>
+
+        <!-- Profile Image -->
+
+        <div class="hero-photo">
+          <img
+            src="imagies/me.jpeg"
+            alt="Profile photo"
+          />
+        </div>
+
+        <!-- Email -->
+
+        <div class="hero-email">
+          <a href="mailto:hello@yuya.com"> nargisalizai45@gmail.com </a>
+        </div>
+
+        <!-- Introduction -->
+
+        <p class="hero-intro">
+          Hi, I’m a web developer passionate about building modern, responsive,
+          and user-friendly websites
+        </p>
+      </section>
+
+      <!-- ================= WORK ================= -->
+
+      <section class="work section" id="work">
+        <div class="work-heading">
+          <div class="section-label">work.</div>
+
+          <a href="#work-grid" class="light-button"> Show More </a>
+        </div>
+
+        <!-- VIDEO CARDS -->
+
+        <div class="work-grid" id="work-grid">
+          <!-- CARD 1 -->
+
+          <article class="work-card">
+            <div class="video-wrap">
+              <video
+                autoplay
+                loop
+                muted
+                preload="metadata"
+                poster="https://images.unsplash.com/photo-1618005198919-d3d4b5a92ead?auto=format&fit=crop&w=1200&q=85"
+              >
+                <source
+                  src="imagies/Document - Google Chrome 8_21_2026 12_52_54 AM.mp4"
+                  type="video/mp4"
+                />
+
+                Your browser does not support HTML video.
+              </video>
+
+              <span class="play-label"> VIDEO 01 </span>
+            </div>
+
+            <div class="card-info">
+              <h3>Course design</h3>
+
+              <p>free design crash course</p>
+            </div>
+          </article>
+
+          <!-- CARD 2 -->
+
+          <article class="work-card">
+            <div class="video-wrap">
+              <video
+                autoplay
+                loop
+                muted
+                preload="metadata"
+                poster="https://images.unsplash.com/photo-1614850523296-d8c1af93d400?auto=format&fit=crop&w=1200&q=85">
+                <source
+                  src="imagies/Netlinks - Google Chrome 8_25_2026 11_22_59 PM.mp4"
+                  type="video/mp4"
+                />
+              </video>
+
+              <span class="play-label"> VIDEO 02 </span>
+            </div>
+
+            <div class="card-info">
+              <h3>Netlinks website</h3>
+
+              <p>Motion / Visual Design</p>
+            </div>
+          </article>
+
+          <!-- CARD 3 -->
+
+          <article class="work-card">
+            <div class="video-wrap">
+              <video
+                autoplay
+                loop
+                muted
+                preload="metadata"
+                poster="https://images.unsplash.com/photo-1634017839464-5c339ebe3cb4?auto=format&fit=crop&w=1200&q=85"
+              >
+                <source
+                  src="imagies/Findit Real Estate - Google Chrome 8_25_2026 11_22_05 PM.mp4"
+                  type="video/mp4"
+                />
+
+                Your browser does not support HTML video.
+              </video>
+
+              <span class="play-label"> VIDEO 03 </span>
+            </div>
+
+            <div class="card-info">
+              <h3>Real state</h3>
+
+              <p>Branding / Motion</p>
+            </div>
+          </article>
+
+          <!-- CARD 4 -->
+
+          <article class="work-card">
+            <div class="video-wrap">
+              <video
+                autoplay
+                loop
+                muted
+                preload="metadata"
+                poster="https://images.unsplash.com/photo-1550745165-9bc0b252726f?auto=format&fit=crop&w=1200&q=85"
+              >
+                <source
+                  src="imagies/YUYA _ Creative Portfolio - Google Chrome 8_25_2026 11_24_08 PM.mp4"
+                  type="video/mp4"
+                />
+
+                Your browser does not support HTML video.
+              </video>
+
+              <span class="play-label"> VIDEO 04 </span>
+            </div>
+
+            <div class="card-info">
+              <h3>portfolio</h3>
+
+              <p>Campaign / Creative</p>
+            </div>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <!-- ================= ABOUT ================= -->
+
+    <section class="about section" id="about">
+      <div class="section-label">about.</div>
+
+      <div class="about-top">
+        <p class="about-lead">
+          I collaborate with businesses and individuals worldwide, creating
+          modern, responsive, and user-friendly websites. I use the latest web
+          technologies to turn ideas into fast, functional, and engaging digital
+          experiences
+        </p>
+      </div>
+
+      <div class="about-content">
+        <img
+          src="imagies/WhatsApp Image 2026-09-14 at 02.29.55.jpeg"
+          alt="Creative designer"
+        />
+
+        <p>
+          I’m dedicated to building modern and highly functional websites that
+          seamlessly align with my clients’ unique needs, goals, and vision.
+        </p>
+      </div>
+    </section>
+
+    <!-- ================= FOOTER ================= -->
+    <footer class="footer">
+      <!-- Social Links -->
+      <div class="footer-socials">
+        <a href="#"> LinkedIn </a>
+
+        <a href="#"> Twitter </a>
+
+        <a href="#"> Behance </a>
+      </div>
+
+      <!-- Footer Main -->
+      <div class="footer-main">
+        <h2>
+          Curious about what we can create together?
+
+          <br />
+
+          <span> Let's bring something extraordinary to life! </span>
+        </h2>
+
+        <div class="footer-actions">
+          <!-- Goes to contact.html -->
+          <a href="contact.html" class="contact-button"> Get in Touch </a>
+
+          <span class="availability">
+            <i></i>
+
+            Available For Work
+          </span>
+        </div>
+      </div>
+
+      <!-- Footer Bottom -->
+      <div class="footer-bottom">
+        <div>
+          <a href="tel:+819012345678"> +81 (0)747527815 </a>
+
+          <br />
+
+          <a href="mailto:hello@yuya.com"> nargisalizai45@gmail.com </a>
+        </div>
+
+        <p>
+          Designed &amp; Developed
+          <br />
+          by Nargis Alizai
+        </p>
+
+        <p>
+          All rights reserved,
+          <br />
+          NA © 2026
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>
